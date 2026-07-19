@@ -74,33 +74,33 @@ PORT=8080
 
 ### 🧪 *Commands*
 
-*The bot is fully managed via Telegram commands.*
+***The Bot is fully managed via Telegram commands.***
 
-**Monitoring & Status:**
+**Monitoring & Status :**
 - `/start` - *Check Bot Status & Get your Chat ID*
 - `/check` - *Force an instant manual scan and view system health*
 - `/stats` - *View rich bot statistics, ScraperAPI usage, and toggle bypass modes*
 - `/mr` - *Fetch and generate a real-time Monthly Report via Graph.org*
 - `/list` - *Show currently configured targets and authorized users*
 
-**XenForo Actions:**
+**XenForo Actions :**
 - `/add_cookie` - *Reply to a `.txt` file to securely load Netscape cookies into the database*
 - `/react {link} {reaction_id}` - *Send a reaction to a specific forum post*
 - `/reply {link} {text}` - *Reply to a forum thread (supports advanced BBCode quotation)*
 - `/report {link} {reason}` - *Report a specific forum post*
 
-**Admin & System Control:**
+**Admin & System Control :**
 - `/swap` - *Smoothly initiate a Manual Header Swap to bypass blocks*
 - `/restart` - *Hard restart the bot server*
 - `/setcmd` - *Automatically update the bot's command menu in Telegram*
 
-**Target Management (Admin Only):**
+**Target Management (Admin Only) :**
 - `/add_user <Name> <URL>` - *Add a new user to track*
 - `/del_user <Name>` - *Remove a tracked user*
 - `/add_forum <Name> <URL>` - *Add a new forum section to track*
 - `/del_forum <Name>` - *Remove a tracked forum*
 
-**Access Control (Admin Only):**
+**Access Control (Admin Only) :**
 - `/auth <User_ID>` - *Authorize a user to use the bot and receive alerts*
 - `/unauth <User_ID>` - *Revoke user access*
 
