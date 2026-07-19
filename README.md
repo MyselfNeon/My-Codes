@@ -6,13 +6,18 @@
 
 ### ✨ *Features*
 
-- **Cloudflare 403 Auto-Bypass :** *Advanced self-healing system that automatically rotates browser fingerprints to bypass Cloudflare blocks, featuring a Circuit Breaker that seamlessly fails over to a multi-key ScraperAPI pool when natively blocked.*
-- **XenForo Account Integration:** *Authenticated interactions using your Netscape cookies stored securely in MongoDB.*
-- **Advanced Forum Actions:** *Directly react, reply (with an advanced HTML-to-BBCode translation engine), and report forum posts straight from Telegram.*
-- **Automated Monthly Reports:** *A background scheduler that scrapes specific forum sections, tracks active/removed threads, and automatically generates rich Graph.org summary reports.*
-- **Rich Bot Statistics:** *Monitor uptime, weekly cycle stats, browser identity success rates, and live ScraperAPI credit usage via a dedicated Telegram command with inline toggle buttons.*
-- **Persistent Database:** *Uses asynchronous MongoDB to safely store targets, authorized users, system states, and session cookies across reboots.*
-- **Smooth Manual Healing:** *Use a command to seamlessly force a browser header rotation without rebooting the bot.*
+- **Cloudflare 403 Auto-Bypass :**  
+*Advanced self-healing system that automatically rotates browser fingerprints to bypass Cloudflare blocks, featuring a Circuit Breaker that seamlessly fails over to a multi-key ScraperAPI pool when natively blocked.*
+- **XenForo Account Integration:**  *Authenticated interactions using your Netscape cookies stored securely in MongoDB.*
+- **Advanced Forum Actions:**  *Directly react, reply (with an advanced HTML-to-BBCode translation engine), and report forum posts straight from Telegram.*
+- **Automated Monthly Reports:**  
+*A background scheduler that scrapes specific forum sections, tracks active/removed threads, and automatically generates rich Graph.org summary reports.*
+- **Rich Bot Statistics:**  
+*Monitor uptime, weekly cycle stats, browser identity success rates, and live ScraperAPI credit usage via a dedicated Telegram command with inline toggle buttons.*
+- **Persistent Database:**  
+*Uses asynchronous MongoDB to safely store targets, authorized users, system states, and session cookies across reboots.*
+- **Smooth Manual Healing:**  
+*Use a command to seamlessly force a browser header rotation without rebooting the bot.*
 
 ---
 
