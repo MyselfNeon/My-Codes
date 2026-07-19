@@ -74,35 +74,35 @@ PORT=8080
 
 ### 🧪 *Commands*
 
-*The bot is fully managed via Telegram commands.*[span_22](start_span)[span_22](end_span)
+*The bot is fully managed via Telegram commands.*
 
 **Monitoring & Status:**
-- `/start` - *Check Bot Status & Get your Chat ID*[span_23](start_span)[span_23](end_span)
-- `/check` - *Force an instant manual scan and view system health*[span_24](start_span)[span_24](end_span)
-- `/stats` - *View rich bot statistics, ScraperAPI usage, and toggle bypass modes*[span_25](start_span)[span_25](end_span)
-- `/mr` - *Fetch and generate a real-time Monthly Report via Graph.org*[span_26](start_span)[span_26](end_span)
-- `/list` - *Show currently configured targets and authorized users*[span_27](start_span)[span_27](end_span)
+- `/start` - *Check Bot Status & Get your Chat ID*
+- `/check` - *Force an instant manual scan and view system health*
+- `/stats` - *View rich bot statistics, ScraperAPI usage, and toggle bypass modes*
+- `/mr` - *Fetch and generate a real-time Monthly Report via Graph.org*
+- `/list` - *Show currently configured targets and authorized users*
 
 **XenForo Actions:**
-- `/add_cookie` - *Reply to a `.txt` file to securely load Netscape cookies into the database*[span_28](start_span)[span_28](end_span)
-- `/react {link} {reaction_id}` - *Send a reaction to a specific forum post*[span_29](start_span)[span_29](end_span)
-- `/reply {link} {text}` - *Reply to a forum thread (supports advanced BBCode quotation)*[span_30](start_span)[span_30](end_span)
-- `/report {link} {reason}` - *Report a specific forum post*[span_31](start_span)[span_31](end_span)
+- `/add_cookie` - *Reply to a `.txt` file to securely load Netscape cookies into the database*
+- `/react {link} {reaction_id}` - *Send a reaction to a specific forum post*
+- `/reply {link} {text}` - *Reply to a forum thread (supports advanced BBCode quotation)*
+- `/report {link} {reason}` - *Report a specific forum post*
 
 **Admin & System Control:**
-- `/swap` - *Smoothly initiate a Manual Header Swap to bypass blocks*[span_32](start_span)[span_32](end_span)
-- `/restart` - *Hard restart the bot server*[span_33](start_span)[span_33](end_span)
-- `/setcmd` - *Automatically update the bot's command menu in Telegram*[span_34](start_span)[span_34](end_span)
+- `/swap` - *Smoothly initiate a Manual Header Swap to bypass blocks*
+- `/restart` - *Hard restart the bot server*
+- `/setcmd` - *Automatically update the bot's command menu in Telegram*
 
 **Target Management (Admin Only):**
-- `/add_user <Name> <URL>` - *Add a new user to track*[span_35](start_span)[span_35](end_span)
-- `/del_user <Name>` - *Remove a tracked user*[span_36](start_span)[span_36](end_span)
-- `/add_forum <Name> <URL>` - *Add a new forum section to track*[span_37](start_span)[span_37](end_span)
-- `/del_forum <Name>` - *Remove a tracked forum*[span_38](start_span)[span_38](end_span)
+- `/add_user <Name> <URL>` - *Add a new user to track*
+- `/del_user <Name>` - *Remove a tracked user*
+- `/add_forum <Name> <URL>` - *Add a new forum section to track*
+- `/del_forum <Name>` - *Remove a tracked forum*
 
 **Access Control (Admin Only):**
-- `/auth <User_ID>` - *Authorize a user to use the bot and receive alerts*[span_39](start_span)[span_39](end_span)
-- `/unauth <User_ID>` - *Revoke user access*[span_40](start_span)[span_40](end_span)
+- `/auth <User_ID>` - *Authorize a user to use the bot and receive alerts*
+- `/unauth <User_ID>` - *Revoke user access*
 
 ---
 
@@ -110,10 +110,10 @@ PORT=8080
 
 ### *Render / Railway / Replit*
 
-***1. Add your environment variables (DB_URI, BOT_TOKEN, PORT, etc.)***[span_41](start_span)[span_41](end_span)
-***2. Set `KEEP_ALIVE_URL` in `main.py` if using a pinging service***[span_42](start_span)[span_42](end_span)
-***3. Deploy the application using the included `Dockerfile`***[span_43](start_span)[span_43](end_span)
-***4. The bot will automatically start the Flask health-check server and background tasks to stay awake***[span_44](start_span)[span_44](end_span)[span_45](start_span)[span_45](end_span)
+***1. Add your environment variables (DB_URI, BOT_TOKEN, PORT, etc.)***
+***2. Set `KEEP_ALIVE_URL` in `main.py` if using a pinging service***
+***3. Deploy the application using the included `Dockerfile`***
+***4. The bot will automatically start the Flask health-check server and background tasks to stay awake***
 
 ---
 
