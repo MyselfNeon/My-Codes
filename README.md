@@ -110,10 +110,10 @@ PORT=8080
 
 ### *Render / Railway / Replit*
 
-***1. Add your environment variables (DB_URI, BOT_TOKEN, PORT, etc.)***
-***2. Set `KEEP_ALIVE_URL` in `main.py` if using a pinging service***
-***3. Deploy the application using the included `Dockerfile`***
-***4. The bot will automatically start the Flask health-check server and background tasks to stay awake***
+***1.** Add your environment variables (DB_URI, BOT_TOKEN, PORT, etc.)*  
+***2.** Set `KEEP_ALIVE_URL` in `main.py` if using a pinging service*  
+***3.** Deploy the application using the included `Dockerfile`*  
+***4.** The bot will automatically start the Flask health-check server and background tasks to stay awake*
 
 ---
 
