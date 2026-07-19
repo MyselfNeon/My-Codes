@@ -125,6 +125,6 @@ PORT=8080
 
 ## ❤️ *Author*
 
-***Anurag Nandan**
-**Age 23**
-**Contact Link - [MyselfNeon](https://t.me/myselfneon)***
+***• Anurag Nandan**  
+**• Age 23**  
+**• Contact Link - [MyselfNeon](https://t.me/myselfneon)***
