@@ -18,12 +18,13 @@
 
 ### 🧩 *How It Works*
 
-*The bot continuously:*
-*1. Fetches URLs using `curl_cffi` to mimic real browser fingerprints (Safari, Chrome, Edge) and TLS signatures.*
-*2. Parses pages with BeautifulSoup to detect user status changes, new/removed threads, and CAPTCHA challenges.*
-*3. If blocked by a 403 error, it triggers an **Auto-Heal Protocol** to rotate headers. If blocks persist, it routes traffic through ScraperAPI for a cooldown period.*
-*4. Saves all target data, admin IDs, session cookies, and scan snapshots securely in MongoDB.*
-*5. Sends intelligent Telegram alerts, auto-deleting older status messages to reduce chat clutter.*
+*The bot continuously:*  
+***1.** Fetches URLs using `curl_cffi` to mimic real browser fingerprints (Safari, Chrome, Edge) and TLS signatures.*  
+***2.** Parses pages with BeautifulSoup to detect user status changes, new/removed threads, and CAPTCHA challenges.*  
+***3.** If blocked by a 403 error, it triggers an **Auto-Heal Protocol** to rotate headers. If blocks persist, it routes traffic through ScraperAPI for a cooldown period.*  
+***4.** Saves all target data, admin IDs, session cookies, and scan snapshots securely in MongoDB.*  
+***5.** Sends intelligent Telegram alerts, auto-deleting older status messages to reduce chat clutter.*  
+
 ---
 
 ### 🚀 *Installation*
